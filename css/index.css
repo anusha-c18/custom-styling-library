@@ -1,34 +1,48 @@
-h1 {
-  color: #addcff;
-  margin-bottom: 0.75rem;
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
 a {
-  color: pink;
+  text-decoration: none;
 }
 
-button {
-  color: white;
+hr {
   border: 0;
-  background-color: #addcff;
-  border-radius: 20px;
-  padding: 0.75rem;
+  border-top: 1px dotted #efefef;
 }
 
-.error {
-  color: red;
-  border: red solid 1px;
-  margin: 0.75rem;
-  padding: 0.75rem;
-  border-radius: 20px;
+img {
+  max-width: 100%;
 }
 
-.notification {
-  color: pink;
-  border-color: pink;
-  border-style: solid;
-  margin: 0.75rem;
+.test {
+  color: #addcff;
+}
+
+.card {
+  display: block;
   padding: 0.75rem;
-  border-radius: 20px;
-  border-width: 1px;
+  border: 2px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.card .card-title {
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
 }

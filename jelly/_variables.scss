@@ -1,6 +1,6 @@
 //theme colors
-$primary: #addcff;
-$secondary: pink;
+$primary: #3fa9fa;
+$secondary: rgb(243, 55, 86);
 $error: red;
 $info: yellow;
 
@@ -21,16 +21,16 @@ $colors: (
   "white": white,
 );
 
-@debug map-get($colors, "purple");
-@debug map-has-key($colors, "secondary");
-@debug map-has-key($colors, "tertiary");
-@debug map-remove($colors, "primary");
-@debug map-merge(
-  $colors,
-  (
-    "primary": $primary,
-  )
-);
+// @debug map-get($colors, "purple");
+// @debug map-has-key($colors, "secondary");
+// @debug map-has-key($colors, "tertiary");
+// @debug map-remove($colors, "primary");
+// @debug map-merge(
+//   $colors,
+//   (
+//     "primary": $primary,
+//   )
+// );
 
 .test-btn {
   background-color: map-get($colors, "orange");

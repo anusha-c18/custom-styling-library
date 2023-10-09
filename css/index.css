@@ -1,0 +1,34 @@
+h1 {
+  color: #addcff;
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: pink;
+}
+
+button {
+  color: white;
+  border: 0;
+  background-color: #addcff;
+  border-radius: 20px;
+  padding: 0.75rem;
+}
+
+.error {
+  color: red;
+  border: red solid 1px;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+}
+
+.notification {
+  color: pink;
+  border-color: pink;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
+}

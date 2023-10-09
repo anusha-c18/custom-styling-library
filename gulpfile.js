@@ -7,7 +7,7 @@ function buildStyles() {
 }
 
 function watchTask() {
-  watch(["index.scss"], buildStyles); //calls the function buildStyles whenever there are changes in the dependencies listed in the array
+  watch(["*.scss"], buildStyles); //calls the function buildStyles whenever there are changes in the dependencies listed in the array
 }
 
 exports.default = series(buildStyles, watchTask);
